@@ -1,0 +1,10 @@
+Options +FollowSymlinks
+Options +SymLinksIfOwnerMatch
+RewriteEngine On
+
+#RewriteCond %{HTTP_HOST} !^www\.
+#RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/desarrollo/am2/am2consultores/website/mdv/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?load=$1 [PT,L]

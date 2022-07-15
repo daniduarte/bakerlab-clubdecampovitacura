@@ -1,0 +1,2 @@
+[22-Jul-2014 16:47:29 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/houseofbeer/public_html/website/cph_admin/modulos/d/save_elemento.php on line 44
+[22-Jul-2014 16:47:39 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/houseofbeer/public_html/website/cph_admin/modulos/d/save_elemento.php on line 44

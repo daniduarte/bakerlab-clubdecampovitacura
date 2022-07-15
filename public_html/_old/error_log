@@ -1,0 +1,1 @@
+[31-Dec-2018 07:19:29 America/Santiago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/clubvitacura/public_html/_app/lib/lib.db.php on line 5
